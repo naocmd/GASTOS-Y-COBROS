@@ -6,11 +6,11 @@ Presupuesto Personal es un sistema de base de datos relacional diseñado para ge
 
 El proyecto combina:
 
-🗄️ Diseño y modelado de base de datos en MySQL
+ Diseño y modelado de base de datos en MySQL
 
-🔐 Integridad referencial y restricciones
+ Integridad referencial y restricciones
 
-📊 Visualización y análisis de datos con Power BI
+ Visualización y análisis de datos con Power BI
 
 El objetivo es simular un entorno real de gestión financiera y análisis empresarial.
 
@@ -30,7 +30,7 @@ Simular un flujo real: Base de Datos → Análisis → Dashboard
 
 # Modelo de Datos
 
-📌 Tablas principales
+ Tablas principales
 
 Tabla	Descripción
 EMPRESAS	Entidades asociadas a ingresos y gastos
@@ -40,7 +40,7 @@ GASTOS	Registro detallado de gastos
 INGRESOS	Registro detallado de ingresos
 PRESUPUESTO	Presupuesto mensual por categoría y empresa
 
-🔗 Relaciones
+ Relaciones
 
 Una empresa puede tener múltiples ingresos y gastos.
 
@@ -52,12 +52,12 @@ El presupuesto se asigna por empresa y categoría.
 
 Todas las relaciones están protegidas mediante claves foráneas.
 
-🔐 Restricciones Implementadas
+ Restricciones Implementadas
 
-✔️ PRIMARY KEY en todas las entidades
-✔️ FOREIGN KEY para integridad referencial
-✔️ UNIQUE para evitar duplicados
-✔️ CHECK para validación de datos:
+   PRIMARY KEY en todas las entidades
+   FOREIGN KEY para integridad referencial
+   UNIQUE para evitar duplicados
+   CHECK para validación de datos:
 
 Tipo de gasto → FIJO / VARIABLE
 
@@ -100,7 +100,8 @@ Segmentadores (filtros) por fecha y tipo
 # Flujo del Proyecto
 Diseño SQL → Creación de datos → Modelado relacional → 
 Conexión Power BI → Transformación de datos → Dashboard interactivo
-🛠️ Tecnologías Utilizadas
+
+Tecnologías Utilizadas
 
 MySQL
 
